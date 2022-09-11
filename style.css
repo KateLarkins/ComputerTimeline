@@ -1,28 +1,33 @@
-index.html { 
+.homepage { 
     color:crimson;
-    background-color:blue;
+    background-color:lightskyblue;
 }
-firstmainframe.html { 
+.firstmainframe { 
     color:paleturquoise;
     background-color:pink;
 }    
-ENIACmainframe.html { 
-    color:lawngreen;
-    background-color:rgb(208, 255, 0);
+.ENIACMainframe{ 
+    color:rgb(208, 255, 0);
+    background-color:lawngreen;
 }    
-COBOLprogramming.html { 
+.COBOL { 
     color:violet;
     background-color:lightcoral;
 }
-mainframevendors.html { 
+.IBM { 
     color:hotpink;
     background-color:plum;
 }
-linux-basedmainframe.html { 
+.linux { 
     color:aquamarine;
     background-color:palevioletred;
 }
 h1 {
     font-size:48px;
     text-align:center;
+}
+h1 + img {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
 }
